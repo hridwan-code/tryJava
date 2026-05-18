@@ -1,4 +1,5 @@
-package Modularitas;
+package AIpro1B2026.Modularitas;
+
 import java.util.Scanner;
 
 public class GadoGado {
@@ -21,4 +22,3 @@ public class GadoGado {
         tukar();
     }
 }
-helloworld.java
