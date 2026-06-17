@@ -1,4 +1,4 @@
-package AIpro1B2026.LATIHAN;
+package LATIHAN;
 
 import java.util.Scanner;
 

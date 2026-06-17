@@ -1,5 +1,3 @@
-package AIpro1B2026;
-
 import java.util.Scanner;
 
 public class Kelipatan4 {

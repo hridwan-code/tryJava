@@ -1,4 +1,4 @@
-package AIpro1B2026.LARIK;
+package LARIK;
 
 import java.util.Scanner;
 

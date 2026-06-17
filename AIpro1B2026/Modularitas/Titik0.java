@@ -1,4 +1,4 @@
-package AIpro1B2026.Modularitas;
+package Modularitas;
 
 import java.util.Scanner;
 

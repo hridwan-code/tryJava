@@ -1,4 +1,4 @@
-package AIpro1B2026.RECORD;
+package RECORD;
 
 public class Dates {
     
