@@ -1,5 +1,5 @@
 public class NilaiXLarik {
-      static int cariX(int[] A, int X) {
+    static int cariX(int[] A, int X) {
         int indeks = 0;
 
         for (int i = 0; i < A.length; i++) {

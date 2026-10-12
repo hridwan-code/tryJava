@@ -1,3 +1,5 @@
+diberikan larik integer A yang berukuran N elemen. Larik A sudah terdefinisi elemen elemennya. tuliskan prosedur yang keluarannya adalah elemen terbesar pertama dan elemen terbesar kedua di dalam larik A
+
 Mencari elemen terbesar pertama dan kedua
 
 PROCEDURE DuaTerbesar(A, n)
