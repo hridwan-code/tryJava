@@ -23,22 +23,50 @@ public class ArrayIntM {
         }
     }
 
-    int cari() {
-        Scanner sc = new Scanner(System.in);
-
+    int cariF3(int x) {
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nilai yang dicari: ");
-        int x = sc.nextInt();
-
         int idx = -1;
-
-        // Traversal dari belakang
-        for (int i = N - 1; i >= 0; i--) {
-            if (a[i] == x) {
+        int i=0;
+        while (i<N) {
+            if (a[i]==x) {
                 idx = i;
                 break;
             }
+            i++;
         }
+        return idx;
+    }
 
+    int carif4(int x) {
+        int idx=-1;
+        int i=0;
+        boolean ktmu=false;
+        while ((i<N) && (!ktmu)) {
+            if (a[i]==x) {
+                idx=i;
+                ktmu=true;
+            }
+            i++;
+        }
+        return idx;
+    }
+
+int carif5(int x) {
+        int idx=-1;
+        int i=0;
+        boolean ktmu=false;
+        while ((i<N) && (!ktmu)) {
+            if (a[i]==x) {
+                idx=i;
+                ktmu=true;
+            }else {
+                if (a[i]>x) {
+                    break;
+                }
+            }
+            i++;
+        }
         return idx;
     }
 
@@ -58,7 +86,8 @@ public class ArrayIntM {
         A.baca();
         A.tulis();
 
-        int hasil = A.cari();
+        A.cariF3(0);
+        int hasil = A.carif4(0);
         A.hasilcari(hasil);
     }
 }

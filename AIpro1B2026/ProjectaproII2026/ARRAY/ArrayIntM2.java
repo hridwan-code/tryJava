@@ -78,7 +78,8 @@ public class ArrayIntM2 {
         A.baca();
         A.tulis();
 
-        int hasil = A.cari();
+        A.cariF3(0);
+        int hasil = A.carif4(0);
         A.hasilcari(hasil);
     }
 }
